@@ -1,5 +1,4 @@
 // elements
-const mainWrapper = document.querySelector("#wrapper");
 const popupComeBack = document.querySelector("#popup-come-back");
 const popupThankYou = document.querySelector("#popup-thank-you");
 
