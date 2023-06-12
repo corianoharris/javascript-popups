@@ -1,3 +1,5 @@
+"use strict";
+
 // elements
 const mainWrapper = document.querySelector("#wrapper");
 const popupComeBack = document.querySelector("#popup-come-back");
@@ -5,6 +7,8 @@ const popupThankYou = document.querySelector("#popup-thank-you");
 
 const buttonAccept = document.querySelector("#button-accept");
 const buttonCancel = document.querySelector("#button-cancel");
+
+const popUpDisplayed = (buttons: array) => void {};
 
 // Cancel btn function
 const toggleComeBackPopupView = () => {
