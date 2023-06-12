@@ -1,0 +1,103 @@
+/* Globals */
+
+body {
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/* button components */
+
+#buttons-wrapper {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.buttons {
+  width: auto;
+  margin: 0 20px;
+  border-radius: 0.5rem;
+  background-color: #f44b34;
+  opacity: 0.85;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* modal components */
+
+.popups {
+  width: 300px;
+  border: 3px solid #d03f2b;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  color: #d03f2b;
+}
+
+.onScreenThankYouPopup {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  -webkit-transition: bottom 0.3s ease-in;
+  -moz-transition: bottom 0.3s ease-in;
+  -ms-transition: bottom 0.3s ease-in;
+  -o-transition: bottom 0.3s ease-in;
+  transition: bottom 0.3s ease-in;
+}
+
+.onScreenComeBackSoonPopup {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  transition-delay: 0.5s;
+  -webkit-transition: top 0.6s ease-in;
+  -moz-transition: top 0.6s ease-in;
+  -ms-transition: top 0.6s ease-in;
+  -o-transition: top 0.6s ease-in;
+  transition: top 0.6s ease-in;
+}
+
+.offScreenThankYouPopup {
+  position: absolute;
+  bottom: -200px;
+  right: 10px;
+  transition-delay: 0.5s;
+  -webkit-transition: bottom 0.6s ease-in-out;
+  -moz-transition: bottom 0.6s ease-in-out;
+  -ms-transition: bottom 0.6s ease-in-out;
+  -o-transition: bottom 0.6s ease-in-out;
+  transition: bottom 0.6s ease-in-out;
+}
+
+.offScreenComeBackSoonPopup {
+  position: absolute;
+  bottom: -200px;
+  right: 10px;
+  transition-delay: 0.5s;
+  -webkit-transition: top 0.6s ease-in-out;
+  -moz-transition: top 0.6s ease-in-out;
+  -ms-transition: top 0.6s ease-in-out;
+  -o-transition: top 0.6s ease-in-out;
+  transition: top 0.6s ease-in-out;
+}
+
+/* Util CSS */
+
+.not-allowed,
+.not-allowed:hover {
+  cursor: none;
+  background-color: #606060;
+  opacity: 0.5;
+}
